@@ -38,7 +38,7 @@ const service = () => {
   return (
     <div>
       <h1 className="text-5xl font-semibold my-10">Selamat datang di Undefined Hotel</h1>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 halo">
         {DataRooms.map((rooms: any) => (
           <ServiceCard item={rooms} key={rooms.id} />
         ))}
